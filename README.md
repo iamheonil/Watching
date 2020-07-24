@@ -22,7 +22,7 @@
  - Oracle Database 11g
  - Apache Tomcat 9.0.35
  - Front FrameWork - Bootstrap
- - ~~JSP / AJAX / kakao / NAVER / FullCalendar API, Library 사용~~
+ - ~~JSP / AJAX / kakao / NAVER / FullCalendar API, Library 사용~~ (미정)
 
 <br>
 
