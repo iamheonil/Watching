@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,28 +66,28 @@
 
     <div class="wrapper">
 
-        <br>
-        <br>
-        Main
-        <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
+	
+	아래에 리스트 <br>
+	
+		<c:forEach items="${list }" var="member">
+		
+		아이디 : ${list.userid } <br>
+		닉네임 : ${list.usernick } <br>
+		
+		</c:forEach>
+
+
         <br> <br>
         <br> <br>
         <br> <br>
         <br> <br>
         <br> <br>
         <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br>
 
     </div>
 
