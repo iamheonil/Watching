@@ -71,6 +71,9 @@
         <br> <br>
         <br> <br>
         <br> <br>
+        <br> <br>
+        <br> <br>
+        <br> <br>
 	
 	아래에 리스트 <br>
 	
@@ -82,6 +85,9 @@
 		</c:forEach>
 
 
+        <br> <br>
+        <br> <br>
+        <br> <br>
         <br> <br>
         <br> <br>
         <br> <br>
