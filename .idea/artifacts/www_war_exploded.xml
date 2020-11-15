@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="www:war exploded">
+    <output-path>$PROJECT_DIR$/target/www-1.0.0-BUILD-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>www</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="www" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.oracle:ojdbc6:12.1.0.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.5" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/www-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="www/web/Web" />
+    </root>
+  </artifact>
+</component>
